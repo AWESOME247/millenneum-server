@@ -26,7 +26,7 @@ mongoose.connection.once("open", () => {
 router.use(cookieParser());
 
 router.use(cors({
-  origin: ['http://127.0.0.1', 'https://dashboard.millenniumexchange.org'], // replace with the origin of your web page
+  origin: ['http://127.0.0.1:5500', 'https://dashboard.millenniumexchange.org'], // replace with the origin of your web page
   credentials: true,
 }));
 
