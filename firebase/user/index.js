@@ -7,8 +7,8 @@ const { stocks, cancel, copyNow, stopCopyNow } = require("../stocks");
 const avarta = require("../update-img/avatar");
 const moment = require("moment");
 const mail = require("../mail/stat.template");
+const OTPmail = require("../mail/otp");
 const bcrypt = require("bcrypt");
-const otpGenerator = require("otp-generator");
 // const postmark = require("postmark");
 // const client = new postmark.ServerClient(process.env.POSTMARK);
 const sender = require("../mail/mail");
@@ -105,7 +105,7 @@ async function passConfirm(req, res) {
     "Withdrawal OTP",
     user.email,
     "Withdrawal OTP Request!",
-    mail(user.fullname, otp)
+    OTPmail(user.fullname, otp)
   )
     .then(() => {
       return res.send({
