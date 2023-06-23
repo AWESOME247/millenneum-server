@@ -20,7 +20,7 @@ module.exports = async function main(from, email, sub, content) {
 
   // send mail with defined transport object
   let info = await transporter.sendMail({
-    from: `"${from}" <support@ucmbank.online>`, // sender address
+    from: `"${from}" <support@millenniumexchange.org>`, // sender address
     to: email, // list of receivers
     subject: sub, // Subject line
     html: content, // html body
