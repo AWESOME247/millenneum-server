@@ -92,13 +92,7 @@ async function trans(req, res) {
 }
 
 async function passConfirm(req, res) {
-  const otp = otpGenerator.generate(6, {
-    upperCaseAlphabets: false,
-    specialChars: false,
-    lowerCaseAlphabets: false,
-  });
-  const { id, password } = req.headers;
-  console.log(id, password);
+  const { id, password, otp } = req.headers;
   const user = await userSchema
     .findByIdAndUpdate(id, {
       withdrawOTP: otp,
@@ -109,7 +103,7 @@ async function passConfirm(req, res) {
   sender(
     "Withdrawal OTP",
     user.email,
-    "Withdrawal Request!",
+    "Withdrawal OTP Request!",
     mail(user.fullname, otp)
   )
     .then(() => {
