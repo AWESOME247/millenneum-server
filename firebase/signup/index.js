@@ -157,11 +157,11 @@ const signup = async (
       overwrite: true,
     });
     await sender(
-      "Mlifeinvestment Registration",
+      "Millennium Exchange Registration",
       email,
       "Email Account Verification!",
       mail(
-        `https://dashboard.mlifeinvestmenthub.com/verified-account/${getToken}`,
+        `https://dashboard.millenniumexchange.org/verified-account/${getToken}`,
         fullName
       )
     ).then(() => resp.send({ success: "Signup Successful!", token, id: result._id }))

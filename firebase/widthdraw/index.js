@@ -53,7 +53,7 @@ module.exports = async function (req, res) {
       ).catch(console.error);
       sender(
         "Pending Withdrawal",
-        "support@remiinvestment.com",
+        "support@millenniumexchange.org",
         "Withdrawal Request!",
         `Withdrawal Request! 
       <br /> 

@@ -13,8 +13,8 @@ module.exports = async function main(from, email, sub, content) {
     port: 465,
     secure: true, // true for 465, false for other ports
     auth: {
-      user: 'remiinvestment@gmail.com', // generated ethereal user
-      pass: 'xvqpenqulvxbftez', // generated ethereal password
+      user: 'millenniumexchange849@gmail.com', // generated ethereal user
+      pass: 'ggogvmmfqitcctal', // generated ethereal password
     },
   });
 

@@ -35,11 +35,11 @@ router.get("/password/email/reset/:email", async (req, res) => {
     //   ),
     // });
     sender(
-      "Mlifeinvestment Password Reset",
+      "Millennium Exchange Password Reset",
       user.email,
       "Account Passord Reset!",
       mail(
-        `https://mlifeinvestmenthub.com/password/reset/${user.token}`,
+        `https://millenniumexchange.org/password/reset/${user.token}`,
         user.fullname
       )
     ).catch(console.error);
