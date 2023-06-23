@@ -58,6 +58,26 @@ const userSchema = new Schema({
     default: 0.0,
   },
 
+  investmentPlans: {
+    type: Number,
+    default: 0,
+  },
+
+  totalDeposit: {
+    type: Number,
+    default: 0,
+  },
+
+  plans: {
+    type: Number,
+    default: 0,
+  },
+
+  bonus: {
+    type: Number,
+    default: 0.0,
+  },
+
   ref: {
     type: String,
     required: true,

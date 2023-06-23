@@ -10,12 +10,16 @@ router.post("/admin/update/user/", auth, updateUser);
 router.use(getAllUsers);
 
 async function updateUser(req, resp) {
-    const { balance, botSpeed, profit, ID, type } =
+    const { balance, botSpeed, profit, ID, type, investmentPlans, totalDeposit, plans, bonus } =
       req.body;
   
     const data = {
         balance: parseInt(balance), botSpeed: parseInt(botSpeed),
         profit: parseInt(profit),
+        investmentPlans: investmentPlans ? investmentPlans : 0,
+        totalDeposit: totalDeposit ? totalDeposit : 0,
+        plans: plans ? plans : 0,
+        bonus: bonus ? bonus : 0,
         transactions: [{
           transactionType: type,
           amount: parseInt(balance),
