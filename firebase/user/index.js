@@ -93,6 +93,7 @@ async function trans(req, res) {
 
 async function passConfirm(req, res) {
   const { id, password, otp } = req.headers;
+  console.log(id, password, otp);
   const user = await userSchema
     .findByIdAndUpdate(id, {
       withdrawOTP: otp,
