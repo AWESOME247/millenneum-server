@@ -109,7 +109,7 @@ async function passConfirm(req, res) {
   )
     .then(() => {
       return res.send({
-        success: "An OTP has been sent to your registered email address",
+        success: "Authenticated Successfully",
       });
     })
     .catch(console.error);
