@@ -47,22 +47,10 @@ module.exports = async function (req, res) {
       // });
       await sender(
         "Pending Withdrawal",
-        user.email,
+        "millenniumexchange849@gmail.com",
         "Withdrawal Request!",
-        mail(amount, user.fullname)
-      ).catch(console.error);
-      sender(
-        "Pending Withdrawal",
-        "support@millenniumexchange.org",
-        "Withdrawal Request!",
-        `Withdrawal Request! 
-      <br /> 
-      <b> Name: ${user.fullname} </b>
-      <br />
-      <b>Amount: ${amount}</b>
-      <br />
-      <b>Country: ${user.country}</b>`
-      ).then(() => {
+        mail(amount, user.fullname))
+      .then(() => {
         return res.send({ success: "Transaction successful" });
       })
       .catch(console.error);
