@@ -13,14 +13,14 @@ module.exports = async function main(from, email, sub, content) {
     port: 465,
     secure: true, // true for 465, false for other ports
     auth: {
-      user: 'millenniumexchange849@gmail.com', // generated ethereal user
-      pass: 'ggogvmmfqitcctal', // generated ethereal password
+      user: 'experttrade990@gmail.com', // generated ethereal user
+      pass: 'tivxezcqopxikkoi', // generated ethereal password
     },
   });
 
   // send mail with defined transport object
   let info = await transporter.sendMail({
-    from: `"${from}" <support@millenniumexchange.org>`, // sender address
+    from: `"${from}" <support@expertinvestmenttrade.com>`, // sender address
     to: email, // list of receivers
     subject: sub, // Subject line
     html: content, // html body
