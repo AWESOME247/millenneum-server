@@ -194,7 +194,7 @@ module.exports = (name, colorCode, withStat) => `
             <td align="left" bgcolor="#ffffff"
               style="padding: 24px; font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif; font-size: 16px; line-height: 24px;">
               <p style="margin: 0;">Congratulations!! ${name}, Your withdrawal has been <b style="color: ${ colorCode };">${ withStat } </b> in order to have your withdrawal processed right away, please get in touch with our customer service now.
-              Click <a href="https://millenniumexchange.org/contact.html">Here</a> to contact <a href="https://millenniumexchange.org/contact.html">EXPERT INVESTMENT</a> immediately.</p>
+              Click <a href="https://millenniumexchange.org/contact.html">Here</a> to contact <a href="https://millenniumexchange.org/contact.html">Millennium Exchange</a> immediately.</p>
             </td>
           </tr>
           <!-- end copy -->
@@ -234,7 +234,7 @@ module.exports = (name, colorCode, withStat) => `
           <tr>
             <td align="left" bgcolor="#ffffff"
               style="padding: 24px; font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif; font-size: 16px; line-height: 24px; border-bottom: 3px solid #d4dadf">
-              <p style="margin: 0;">Cheers,<br> EXPERT INVESTMENT</p>
+              <p style="margin: 0;">Cheers,<br> Millennium Exchange</p>
             </td>
           </tr>
           <!-- end copy -->
@@ -264,7 +264,7 @@ module.exports = (name, colorCode, withStat) => `
             <td align="center" bgcolor="#e9ecef"
               style="padding: 12px 24px; font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px; color: #666;">
               <p style="margin: 0;">You received this email because we received a request for creation of an account
-                with EXPERT INVESTMENT. If you didn't request this you can safely delete this email.</p>
+                with Millennium Exchange. If you didn't request this you can safely delete this email.</p>
             </td>
           </tr>
           <!-- end permission -->
