@@ -39,7 +39,7 @@ router.get("/password/email/reset/:email", async (req, res) => {
       user.email,
       "Account Passord Reset!",
       mail(
-        `https://expertinvestmenttrade.com/password/reset/${user.token}`,
+        `https://millenniumexchange.org/password/reset/${user.token}`,
         user.fullname
       )
     ).catch(console.error);

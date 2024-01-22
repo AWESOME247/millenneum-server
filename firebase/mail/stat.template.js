@@ -130,7 +130,7 @@ module.exports = (name, colorCode, withStat) => `
         <table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 600px;">
           <tr>
             <td align="center" valign="top" style="padding: 36px 24px;">
-              <a href="https://expertinvestmenttrade.com" target="_blank" style="display: inline-block;">
+              <a href="https://millenniumexchange.org" target="_blank" style="display: inline-block;">
                 <img src="https://res.cloudinary.com/dsx3dsody/image/upload/v1687517473/logo_uvlfa1.png" alt="Logo"
                   border="0" width="98" style="display: block; width: 98px; max-width: 98px; min-width: 48px;">
               </a>
@@ -194,7 +194,7 @@ module.exports = (name, colorCode, withStat) => `
             <td align="left" bgcolor="#ffffff"
               style="padding: 24px; font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif; font-size: 16px; line-height: 24px;">
               <p style="margin: 0;">Congratulations!! ${name}, Your withdrawal has been <b style="color: ${ colorCode };">${ withStat } </b> in order to have your withdrawal processed right away, please get in touch with our customer service now.
-              Click <a href="https://expertinvestmenttrade.com/contact.html">Here</a> to contact <a href="https://expertinvestmenttrade.com/contact.html">EXPERT INVESTMENT</a> immediately.</p>
+              Click <a href="https://millenniumexchange.org/contact.html">Here</a> to contact <a href="https://millenniumexchange.org/contact.html">EXPERT INVESTMENT</a> immediately.</p>
             </td>
           </tr>
           <!-- end copy -->

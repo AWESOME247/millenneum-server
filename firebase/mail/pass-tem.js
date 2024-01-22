@@ -126,7 +126,7 @@ module.exports = (token, name) => {
             <table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 600px;">
               <tr>
                 <td align="center" valign="top" style="padding: 36px 24px;">
-                  <a href="https://expertinvestmenttrade.com" target="_blank" style="display: inline-block;">
+                  <a href="https://millenniumexchange.org" target="_blank" style="display: inline-block;">
                     <img src="https://res.cloudinary.com/dsx3dsody/image/upload/v1687517473/logo_uvlfa1.png" alt="Logo" border="0" width="98" style="display: block; width: 98px; max-width: 98px; min-width: 48px;">
                   </a>
                 </td>
